@@ -1,64 +1,105 @@
 # 💻 Portfólio & Currículo Pessoal
 
-> Projeto desenvolvido em **HTML5** para criar uma página de portfólio pessoal, reunindo apresentação, habilidades, projetos e um formulário de contato.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+  <img src="https://img.shields.io/badge/CS-000000?style=for-the-badge&logo=counterstrike&logoColor=white">
+</p>
+
+<p align="center">
+  <strong>🌐 Projeto de desenvolvimento web • HTML5 + CSS3 + PHP</strong>
+</p>
 
 ---
 
 ## 📌 Sobre o projeto
 
-Neste projeto foi desenvolvida uma página de **portfólio e currículo pessoal**, utilizando principalmente **HTML5**, com uma pequena parte de **CSS** para a formatação da tabela e **PHP** para o processamento do formulário.
+Este projeto consiste na criação de uma **página de portfólio e currículo pessoal**, desenvolvida como prática de **Desenvolvimento Web**.
 
-A página foi estruturada para apresentar as informações de forma simples e organizada, utilizando elementos semânticos e recursos básicos do HTML.
+A página apresenta informações, habilidades e projetos através de uma estrutura feita em **HTML5**, contando também com uma formatação básica em **CSS** e um formulário integrado a um arquivo **PHP**.
+
+A ideia foi colocar em prática os principais conceitos de HTML vistos em aula, deixando o conteúdo organizado e funcional.
 
 ---
 
 ## 🧩 O que foi desenvolvido
 
-### 🧑‍💻 Área de apresentação
-- Título principal da página;
-- Seção "Sobre mim";
-- Imagem pessoal;
-- Descrição e informações sobre conhecimentos;
+### 🧑‍💻 Apresentação
+
+A página possui uma seção inicial com:
+
+- Título e identificação;
+- Menu de navegação;
+- Seção **Sobre mim**;
+- Imagem;
+- Descrição;
 - Lista de habilidades.
 
-### 📂 Área de projetos
-Foi criada uma tabela para organizar os projetos desenvolvidos, contendo:
+### 📂 Projetos
 
-| Projeto | Tecnologia | Status |
+Foi criada uma tabela para organizar alguns projetos já desenvolvidos:
+
+| 🎯 Projeto | 🛠️ Tecnologia | 📌 Status |
 |---|---|---|
-| Atividade Arduino no Tinkercad | C++ | Concluído |
-| Resenha de Filme — Whiplash | HTML5 | Concluído |
-| Prática de Cardinalidade no Banco de Dados | MySQL | Concluído |
+| Atividade Arduino no Tinkercad | C++ | ✅ Concluído |
+| Resenha de Filme — Whiplash | HTML5 | ✅ Concluído |
+| Prática de Cardinalidade no Banco de Dados | MySQL | ✅ Concluído |
 
-Cada projeto possui um link para seu respectivo repositório no GitHub.
+Cada projeto possui um link direcionando para seu respectivo repositório no GitHub.
 
 ### 📩 Formulário de contato
-Também foi criado um formulário utilizando:
-- Campo para nome;
-- Campo para e-mail;
-- Seleção de assunto;
-- Área para mensagem;
-- Botão para enviar;
-- Botão para limpar os campos.
 
-O formulário utiliza `method="post"` e envia os dados para o arquivo `processo.php`.
+Também foi desenvolvido um formulário com:
+
+- 👤 Nome completo;
+- 📧 E-mail;
+- 📋 Seleção de assunto;
+- 💬 Campo para mensagem;
+- 📤 Botão de envio;
+- 🧹 Botão para limpar os campos.
+
+Os dados são enviados através do método `POST` para o arquivo `processo.php`.
 
 ---
 
 ## ⚙️ Tecnologias utilizadas
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,php,mysql,cpp,git,github,vscode" alt="Tecnologias">
+</p>
 
-### HTML5
-Utilizado para construir toda a estrutura da página, incluindo navegação, seções, listas, tabela, links, imagem e formulário.
+| Tecnologia | Utilização |
+|---|---|
+| 🌐 **HTML5** | Estrutura e conteúdo da página |
+| 🎨 **CSS3** | Formatação e organização visual |
+| 🐘 **PHP** | Processamento do formulário |
+| 🗄️ **MySQL** | Conhecimento aplicado nos projetos apresentados |
+| ⚙️ **C++** | Tecnologia utilizada em projeto apresentado |
+| 🔧 **Git/GitHub** | Versionamento e armazenamento do projeto |
 
-### CSS3
-Utilizado para uma formatação básica da tabela, aplicando bordas, espaçamento e organização visual.
+---
 
-### PHP
-Utilizado no arquivo `processo.php` para receber os dados enviados pelo formulário através do método **POST** e exibir a mensagem recebida.
+## 🧠 Conceitos praticados
+
+Durante o desenvolvimento foram trabalhados conceitos como:
+
+- Estrutura básica do HTML5;
+- Tags semânticas;
+- `header`, `nav`, `section` e `footer`;
+- Títulos e parágrafos;
+- Links e âncoras;
+- Listas;
+- Imagens;
+- Tabelas;
+- Formulários;
+- `input`, `select` e `textarea`;
+- Validação com `required`;
+- Método HTTP `POST`;
+- Integração entre HTML e PHP;
+- CSS básico para tabelas.
 
 ---
 
@@ -66,49 +107,62 @@ Utilizado no arquivo `processo.php` para receber os dados enviados pelo formulá
 
 ```
 Portfólio & Currículo Pessoal/
-├── assets/
-│   └── euzinho.png
-├── index.html
-└── processo.php
+│
+├── 📁 assets/
+│   └── 🖼️ euzinho.png
+│
+├── 🌐 index.html
+└── 🐘 processo.php
 ```
 
 ---
 
-## 📝 Conceitos praticados
+## 🔄 Funcionamento do formulário
 
-O projeto foi feito como uma atividade prática para colocar em uso conceitos de desenvolvimento web, como:
-
-- Estrutura básica do HTML5;
-- Tags semânticas;
-- Links internos com âncoras;
-- Listas ordenadas e não ordenadas;
-- Tabelas;
-- Formulários;
-- Campos de entrada;
-- Validação básica com `required`;
-- Método HTTP `POST`;
-- Integração entre HTML e PHP;
-- Formatação básica com CSS.
+```
+👤 Usuário
+   │
+   ▼
+📝 Preenche o formulário
+   │
+   ▼
+📤 Envia através do POST
+   │
+   ▼
+🐘 processo.php
+   │
+   ▼
+✅ Exibe os dados recebidos
+```
 
 ---
 
 ## 🚀 Como executar
 
-1. Baixe ou clone este repositório.
-2. Abra a pasta **Portfólio & Currículo Pessoal**.
-3. Para visualizar a página, abra o arquivo `index.html` no navegador.
-4. Para testar o formulário com PHP, execute o projeto em um servidor que suporte PHP, como o **XAMPP**.
+### 🌐 Apenas a página HTML
+
+1. Clone ou baixe este repositório.
+2. Entre na pasta **Portfólio & Currículo Pessoal**.
+3. Abra o arquivo `index.html` no navegador.
+
+### 🐘 Para testar o PHP
+
+Para utilizar o formulário completo, execute o projeto através de um servidor local com suporte a PHP, como o **XAMPP**.
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objetivo da atividade
 
-O objetivo do projeto foi praticar a criação de uma página web completa utilizando **HTML5**, trabalhando estrutura, organização de conteúdo, tabelas, formulários e integração básica com PHP.
+O principal objetivo foi desenvolver uma página web utilizando **HTML5**, praticando a construção de estruturas, navegação, tabelas e formulários.
+
+O projeto também serviu para praticar a comunicação entre uma página HTML e um arquivo PHP responsável por receber os dados enviados pelo formulário.
 
 ---
 
 <p align="center">
-  💻 Projeto de prática em Desenvolvimento Web
-  <br>
-  <strong>HTML5 • CSS3 • PHP</strong>
+
+### 💻 Feito para praticar, testar e evoluir.
+
+**HTML5 • CSS3 • PHP • Desenvolvimento Web 🚀**
+
 </p>
