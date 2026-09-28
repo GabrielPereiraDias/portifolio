@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim!</title>
+</head>
+
+<body>
+    <h1>Gabriel Pereira - Desenvolvedor WEB </h1>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projeto">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section>
+        <h2 id="sobre">Sobre mim</h2>
+        <img src="assets/euzinho.png" alt="fotominha" width="150" height="150">
+        <p>Sou estudante de <strong>Desenvolvimento de sistemas</strong> no SENAI</p>
+        <p>Tenho conhecimento em <em>HTML</em>, e estou aprendendo <i>CSS</i></p>
+        <h3>Minhas habilidades: </h3>
+        <ul>
+            <li>HTML5 e Semântico</li>
+            <li>CSS3 e Responsividade</li>
+            <li>Fromulários e Validação</li>
+            <li>Estruturação de Dados</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <h2 id="projeto">Meus Projetos </h2>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+    </style>
+    <table>
+        <th>Projeto</th>
+        <th>Tecnologias</th>
+        <th>Status</th>
+        <th>Link</th>
+        </tr>
+        <tr>
+            <td>Atividade Arduino no Tinkercad</td>
+            <td>C++</td>
+            <td>Concluído</td>
+            <td><a href="https://github.com/GabrielPereiraDias/Atividade-Arduino"> Ver Projeto</a></td>
+        </tr>
+        <tr>
+            <td>Resenha de Filme — Whiplash</td>
+            <td>HTML5</td>
+            <td>Concluído</td>
+            <td><a href="https://github.com/GabrielPereiraDias/projeto-filme">Ver Projeto</a></td>
+        </tr>
+        <tr>
+            <td>Prática de Cardinalidade no Banco de Dados</td>
+            <td>MySQL</td>
+            <TD>Concluído</TD>
+            <td><a href="https://github.com/GabrielPereiraDias/Atividade_BancoDeDados">Ver Projeto</a></td>
+        </tr>
+    </table>
+    <br> <br>
+    <hr>
+    <br><br>
+    <form action="processo.php" method="post">
+        <fieldset id="contact">
+            <legend>Entre em contato!</legend>
+            <label for="nome">Nome Completo: </label> <br>
+            <input type="text" id="nome" name="nome"> <br><br>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="motivo">Assunto: </label> <br>
+            <select name="assunto" id="assunto">
+                <option value="Oportunidade de trabalho ">Oportunidade de trabalho </option>
+                <option value="Suporte">Suporte </option>
+                <option value="Dar feedback">Dar feedback</option>
+                <option value="Outro Assunto">Outro Assunto</option>
+            </select> <br><br>
+            <label for="msg">Mensagem: </label><br>
+            <textarea id="msg" name="msg" rows="4" cols="50"></textarea><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+</body>
+<footer>
+      <p>&copy 2026 - Gabriel Pereira Dias, desenvolvido no curso de desenvolvimento de sistemas no SENAI.</p>
+</footer>
+</html>
