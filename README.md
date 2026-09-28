@@ -1,108 +1,114 @@
-# ✦ Gabriel Pereira Dias — Portfólio
+# 💻 Portfólio & Currículo Pessoal
 
-<div align="center">
-
-### 💻 Desenvolvimento de Sistemas • Criatividade • Tecnologia
-
-**Bem-vindo ao meu portfólio!** 🚀  
-Um espaço para reunir meus projetos, estudos, experimentos e minha evolução na área de tecnologia.
-
-[![GitHub](https://img.shields.io/badge/GitHub-GabrielPereiraDias-181717?style=for-the-badge&logo=github)](https://github.com/GabrielPereiraDias)
-[![SENAI](https://img.shields.io/badge/SENAI-Desenvolvimento%20de%20Sistemas-E30613?style=for-the-badge)](https://www.sp.senai.br/)
-[![Status](https://img.shields.io/badge/Status-Em%20construção-8A2BE2?style=for-the-badge)](#)
-
-</div>
+> Projeto desenvolvido em **HTML5** para criar uma página de portfólio pessoal, reunindo apresentação, habilidades, projetos e um formulário de contato.
 
 ---
 
-## 👨‍💻 Sobre mim
+## 📌 Sobre o projeto
 
-Olá! Eu sou **Gabriel Pereira Dias**, estudante de **Desenvolvimento de Sistemas** no **SENAI Jacob Lafer**, em Santo André.
+Neste projeto foi desenvolvida uma página de **portfólio e currículo pessoal**, utilizando principalmente **HTML5**, com uma pequena parte de **CSS** para a formatação da tabela e **PHP** para o processamento do formulário.
 
-Este repositório funciona como meu espaço pessoal para apresentar trabalhos, projetos e experiências desenvolvidas durante minha formação. A ideia é registrar não só os resultados, mas também a evolução das minhas habilidades ao longo do caminho.
-
-> 💡 **Aprender, testar, errar, melhorar e criar.** É assim que eu construo meu conhecimento em tecnologia.
+A página foi estruturada para apresentar as informações de forma simples e organizada, utilizando elementos semânticos e recursos básicos do HTML.
 
 ---
 
-## 🛠️ Tecnologias & conhecimentos
+## 🧩 O que foi desenvolvido
 
-<div align="center">
+### 🧑‍💻 Área de apresentação
+- Título principal da página;
+- Seção "Sobre mim";
+- Imagem pessoal;
+- Descrição e informações sobre conhecimentos;
+- Lista de habilidades.
+
+### 📂 Área de projetos
+Foi criada uma tabela para organizar os projetos desenvolvidos, contendo:
+
+| Projeto | Tecnologia | Status |
+|---|---|---|
+| Atividade Arduino no Tinkercad | C++ | Concluído |
+| Resenha de Filme — Whiplash | HTML5 | Concluído |
+| Prática de Cardinalidade no Banco de Dados | MySQL | Concluído |
+
+Cada projeto possui um link para seu respectivo repositório no GitHub.
+
+### 📩 Formulário de contato
+Também foi criado um formulário utilizando:
+- Campo para nome;
+- Campo para e-mail;
+- Seleção de assunto;
+- Área para mensagem;
+- Botão para enviar;
+- Botão para limpar os campos.
+
+O formulário utiliza `method="post"` e envia os dados para o arquivo `processo.php`.
+
+---
+
+## ⚙️ Tecnologias utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-</div>
+### HTML5
+Utilizado para construir toda a estrutura da página, incluindo navegação, seções, listas, tabela, links, imagem e formulário.
 
----
+### CSS3
+Utilizado para uma formatação básica da tabela, aplicando bordas, espaçamento e organização visual.
 
-## 📂 O que você vai encontrar aqui
-
-| 📌 Área | ✨ Conteúdo |
-|---|---|
-| 🌐 **Web** | Projetos e exercícios com HTML, CSS e desenvolvimento de páginas |
-| ⚙️ **Back-end** | Práticas e aplicações utilizando PHP |
-| 🗄️ **Banco de Dados** | Modelagem, SQL, MySQL e atividades de integração |
-| 🎨 **Design** | Protótipos e trabalhos desenvolvidos no Figma |
-| 📚 **Projetos escolares** | Atividades e projetos realizados durante o curso |
-| 🧪 **Experimentos** | Testes, ideias e projetos desenvolvidos para aprender na prática |
+### PHP
+Utilizado no arquivo `processo.php` para receber os dados enviados pelo formulário através do método **POST** e exibir a mensagem recebida.
 
 ---
 
-## 🎯 Objetivos
+## 🏗️ Estrutura do projeto
 
-- 🚀 Evoluir continuamente como desenvolvedor
-- 🧠 Aprender novas tecnologias e boas práticas
-- 💻 Criar projetos cada vez mais completos
-- 🎨 Melhorar minhas habilidades de interface e experiência do usuário
-- 🗃️ Desenvolver conhecimentos em banco de dados e back-end
-- 📈 Documentar minha evolução
-
----
-
-## 📈 Minha evolução
-
-Este portfólio está em **constante atualização**.
-
-Novos projetos, tecnologias e experiências serão adicionados conforme minha jornada no Desenvolvimento de Sistemas avançar.
-
-```text
-Ideia → Código → Testes → Erros → Aprendizado → Evolução 🚀
+```
+Portfólio & Currículo Pessoal/
+├── assets/
+│   └── euzinho.png
+├── index.html
+└── processo.php
 ```
 
 ---
 
-## 🎓 Formação
+## 📝 Conceitos praticados
 
-**SENAI Jacob Lafer**  
-📚 Curso: **Desenvolvimento de Sistemas**  
-🏫 Turma: **1ID - DS**  
-📍 Santo André — SP
+O projeto foi feito como uma atividade prática para colocar em uso conceitos de desenvolvimento web, como:
 
----
-
-## 📬 Contato
-
-<div align="center">
-
-**Gabriel Pereira Dias**
-
-[![GitHub](https://img.shields.io/badge/GitHub-GabrielPereiraDias-181717?style=for-the-badge&logo=github)](https://github.com/GabrielPereiraDias)
-
-</div>
+- Estrutura básica do HTML5;
+- Tags semânticas;
+- Links internos com âncoras;
+- Listas ordenadas e não ordenadas;
+- Tabelas;
+- Formulários;
+- Campos de entrada;
+- Validação básica com `required`;
+- Método HTTP `POST`;
+- Integração entre HTML e PHP;
+- Formatação básica com CSS.
 
 ---
 
-<div align="center">
+## 🚀 Como executar
 
-### ⭐ Obrigado por visitar meu portfólio!
+1. Baixe ou clone este repositório.
+2. Abra a pasta **Portfólio & Currículo Pessoal**.
+3. Para visualizar a página, abra o arquivo `index.html` no navegador.
+4. Para testar o formulário com PHP, execute o projeto em um servidor que suporte PHP, como o **XAMPP**.
 
-*Feito com código, criatividade e muita vontade de aprender.* 💻✨
+---
 
-</div>
+## 🎯 Objetivo
+
+O objetivo do projeto foi praticar a criação de uma página web completa utilizando **HTML5**, trabalhando estrutura, organização de conteúdo, tabelas, formulários e integração básica com PHP.
+
+---
+
+<p align="center">
+  💻 Projeto de prática em Desenvolvimento Web
+  <br>
+  <strong>HTML5 • CSS3 • PHP</strong>
+</p>
